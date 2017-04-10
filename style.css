@@ -1,9 +1,18 @@
+body{
+  background: rgb(225,225,225);
+}
 header,section,aside,footer{
-  background: #fff;
+  background: rgba(255,255,255,0.3);
+  padding: 2em;
 }
 
 @media screen and (max-width:768px){
   header,section,aside,footer{
-    background: #fff;
+    background: rgba(255,255,255,0.3);
   }
+}
+
+footer{
+  border-top:1px solid:#000;
+  margin-top: 2em;
 }
