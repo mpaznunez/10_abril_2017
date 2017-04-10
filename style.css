@@ -2,13 +2,14 @@ body{
   background: rgb(225,225,225);
 }
 header,section,aside,footer{
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.5);
   padding: 2em;
+  margin-top:2em;
 }
 
 @media screen and (max-width:768px){
   header,section,aside,footer{
-    background: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.5);
   }
 }
 
